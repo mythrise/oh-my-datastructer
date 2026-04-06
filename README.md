@@ -25,6 +25,7 @@ claude plugin install mythrise/oh-my-datastructer
 # Manual
 git clone https://github.com/mythrise/oh-my-datastructer.git ~/.claude/plugins/oh-my-datastructer
 ```
+(codex like this)
 
 ## Quick Start
 
