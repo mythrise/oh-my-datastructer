@@ -1,0 +1,23 @@
+{
+  "project_id": "{{PROJECT_ID}}",
+  "created": "{{TIMESTAMP}}",
+  "indicators": [],
+  "weights": {
+    "ahp": [],
+    "entropy": [],
+    "combined": []
+  },
+  "baseline": {
+    "metrics": {},
+    "score": 0.0,
+    "timestamp": ""
+  },
+  "iterations": [],
+  "summary": {
+    "total_rounds": 0,
+    "successful_improvements": 0,
+    "failed_attempts": 0,
+    "final_score": 0.0,
+    "improvement_rate": 0.0
+  }
+}

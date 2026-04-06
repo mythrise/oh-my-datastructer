@@ -1,0 +1,32 @@
+{
+  "name": "oh-my-datastructer",
+  "version": "1.0.0",
+  "description": "Complete harness for data structures course assignments",
+  "owner": {
+    "name": "mythrise",
+    "email": "mythrise@github.com"
+  },
+  "metadata": {
+    "description": "From assignment description to submission package — auto-scaffolding, architecture blueprint, algorithm implementation, 3D visualization, Chinese academic Word report, auto-research optimization loop, and submission packaging.",
+    "version": "1.0.0",
+    "pluginRoot": "."
+  },
+  "plugins": [
+    {
+      "name": "oh-my-datastructer",
+      "description": "9-skill harness for data structures course assignments: init, get-information, plan, implement, test, visualize, report, auto-research, package",
+      "version": "1.0.0",
+      "author": {
+        "name": "mythrise"
+      },
+      "homepage": "https://github.com/mythrise/oh-my-datastructer",
+      "repository": "https://github.com/mythrise/oh-my-datastructer",
+      "license": "MIT",
+      "keywords": ["data-structures", "education", "visualization", "auto-research"],
+      "category": "education",
+      "tags": ["chinese-academic", "three-js", "word-report", "huffman", "sorting", "graphs"],
+      "source": ".",
+      "strict": false
+    }
+  ]
+}

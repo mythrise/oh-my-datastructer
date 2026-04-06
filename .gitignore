@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Runtime pipeline state (created per-project, not part of the plugin)
+.pipeline/
+
+# Build artifacts
+*.egg-info/
+dist/
+build/

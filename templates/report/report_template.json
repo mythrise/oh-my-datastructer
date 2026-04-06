@@ -1,0 +1,88 @@
+{
+  "title": "{{ASSIGNMENT_NAME}}实验报告",
+  "sections": [
+    {
+      "id": "cover",
+      "title": "封面",
+      "type": "cover",
+      "fields": ["course_name", "assignment_name", "student_id", "student_name", "date"]
+    },
+    {
+      "id": "toc",
+      "title": "目录",
+      "type": "toc",
+      "auto_generate": true
+    },
+    {
+      "id": "algorithm",
+      "title": "算法描述与主要思想",
+      "type": "content",
+      "subsections": [
+        {"id": "background", "title": "问题背景", "source": "assignment_brief"},
+        {"id": "principle", "title": "核心算法原理", "source": "architecture_blueprint"},
+        {"id": "flowchart", "title": "算法流程", "source": "implementation", "note": "伪代码或流程描述"}
+      ]
+    },
+    {
+      "id": "data_structure",
+      "title": "数据结构设计",
+      "type": "content",
+      "subsections": [
+        {"id": "definitions", "title": "主要数据结构定义", "source": "implementation"},
+        {"id": "rationale", "title": "关键数据结构选择理由", "source": "decision_log"}
+      ]
+    },
+    {
+      "id": "complexity",
+      "title": "时空复杂度分析",
+      "type": "content",
+      "subsections": [
+        {"id": "time", "title": "时间复杂度", "note": "最好/平均/最坏"},
+        {"id": "space", "title": "空间复杂度"},
+        {"id": "theoretical", "title": "与理论下界的比较"}
+      ]
+    },
+    {
+      "id": "experiments",
+      "title": "实验设计与结果",
+      "type": "content",
+      "subsections": [
+        {"id": "environment", "title": "实验环境", "auto": true},
+        {"id": "test_data", "title": "测试数据说明", "source": "benchmarks.json"},
+        {"id": "baseline", "title": "Baseline 实验结果", "source": "benchmarks.json#baseline"},
+        {"id": "ablation", "title": "消融实验结果", "source": "benchmarks.json#ablation"},
+        {"id": "comparison", "title": "对比实验结果", "source": "benchmarks.json#comparison"}
+      ]
+    },
+    {
+      "id": "charts",
+      "title": "图表与可视化",
+      "type": "embedded",
+      "note": "图表内嵌到各实验章节中",
+      "charts": [
+        {"id": "performance", "title": "性能对比图", "type": "bar"},
+        {"id": "scalability", "title": "规模扩展性图", "type": "line"},
+        {"id": "distribution", "title": "数据分布图", "type": "histogram"},
+        {"id": "radar", "title": "综合指标雷达图", "type": "radar"},
+        {"id": "ablation_chart", "title": "消融实验图", "type": "grouped_bar"}
+      ]
+    },
+    {
+      "id": "innovation",
+      "title": "创新点说明",
+      "type": "content",
+      "source": "innovation_points.md"
+    },
+    {
+      "id": "conclusion",
+      "title": "总结与展望",
+      "type": "content"
+    },
+    {
+      "id": "references",
+      "title": "参考文献",
+      "type": "references",
+      "optional": true
+    }
+  ]
+}

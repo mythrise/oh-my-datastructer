@@ -1,0 +1,28 @@
+{
+  "name": "oh-my-datastructer",
+  "version": "1.0.0",
+  "description": "Complete harness for data structures course assignments. From assignment description to submission package — auto-scaffolding, architecture analysis, implementation, testing, 3D visualization, Chinese academic report generation, and iterative optimization.",
+  "author": {
+    "name": "mythrise",
+    "url": "https://github.com/mythrise"
+  },
+  "homepage": "https://github.com/mythrise/oh-my-datastructer",
+  "repository": "https://github.com/mythrise/oh-my-datastructer",
+  "license": "MIT",
+  "keywords": [
+    "data-structures",
+    "homework",
+    "visualization",
+    "report-generation",
+    "chinese-academic",
+    "huffman",
+    "sorting",
+    "trees",
+    "graphs",
+    "auto-research"
+  ],
+  "category": "education",
+  "skills": "./skills/",
+  "agents": "./agents/",
+  "hooks": "./hooks/hooks.json"
+}

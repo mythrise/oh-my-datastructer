@@ -1,0 +1,9 @@
+# {{PROJECT_NAME}} — Python 依赖
+# 核心（无额外依赖，纯标准库实现）
+
+# 测试
+pytest>=7.0
+
+# 基准测试与可视化（可选）
+matplotlib>=3.5
+numpy>=1.21
